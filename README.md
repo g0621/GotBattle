@@ -2,7 +2,7 @@
 
 ------
 
-[Demo]: https://got-battle-gyan.herokuapp.com/	"Demo"
+[Demo https://got-battle-gyan.herokuapp.com/ ](https://got-battle-gyan.herokuapp.com/ )
 
 *please wait for few moments before searching because server was in sleep state*  
 
