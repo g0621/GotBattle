@@ -101,6 +101,7 @@ const AutoCompleteLocal = (props) => {
             <div className="search">
                 <input
                     type="text"
+                    placeholder={'Search by location'}
                     className="search-box"
                     onChange={onChange}
                     onKeyDown={onKeyDown}

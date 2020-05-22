@@ -5,8 +5,8 @@ const CardDetailComponent = (props) => {
     const render = (data) => {
         return (
             <React.Fragment>
-                <div className={'login-div'}>
-                    <div className={'logo battle-name'} style={{marginBottom: '20px'}}>{data.name}</div>
+                <div className={'main-div'}>
+                    <div className={'main-box battle-name'} style={{marginBottom: '20px'}}>{data.name}</div>
                     {data.attacker_king && data.defender_king &&
                     <div>
                         <div className={'title'}>{data.attacker_king}</div>
@@ -14,7 +14,7 @@ const CardDetailComponent = (props) => {
                         <div className={'title'}>{data.defender_king}</div>
                     </div>
                     }
-                    <div className={'logo data-box'}>
+                    <div className={'main-box data-box'}>
                         <h4>
                             Battle was fought {data.year && `in year ${data.year} `}
                             {data.location && ` at ${data.location}`}

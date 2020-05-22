@@ -82,9 +82,9 @@ const AutoCompleteServerComponent = (props) => {
                 );
             } else {
                 optionList = (
-                    <div className="no-options">
-                        <em>No Option!</em>
-                    </div>
+                    <ul className={'options'}>
+                        <li>No Options</li>
+                    </ul>
                 );
             }
         }
