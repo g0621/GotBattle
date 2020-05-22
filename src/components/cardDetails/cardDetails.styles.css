@@ -1,0 +1,116 @@
+.login-div {
+    width:300px;
+    margin: 20px auto 10px auto;
+    max-height: 700px;
+    padding: 30px 20px 35px 20px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+}
+.logo {
+    /*background:url("Logo.png");*/
+    width:80%;
+    /*height: 40px;*/
+    border-radius: 5px;
+    margin:0 auto;
+    box-shadow:
+        /* logo shadow */
+            0px 0px 2px #5f5f5f,
+                /* offset */
+            0px 0px 0px 5px #ecf0f3,
+                /*bottom right */
+            8px 8px 15px #a7aaaf,
+                /* top left */
+            -8px -8px 15px #ffffff
+;
+}
+.logo.battle-name{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.logo.data-box{
+    padding: 2px 5px 2px 5px;
+    width: 95%;
+    margin-top: 5px;
+    font-weight: 500;
+}
+p{
+    margin: 0!important;
+    font-weight: 400;
+    font-size: 12px;
+}
+h4{
+    margin-top: 2px!important;
+    margin-bottom: 7px;
+    font-size: 16px!important;
+}
+
+.title {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: -2px;
+}
+.sub-title {
+    text-align: center;
+    font-size: 15px;
+    margin: 3px auto;
+    letter-spacing: 3px;
+}
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input {
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding:20px 10px 20px 5px;
+}
+.username, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+}
+.fields svg {
+    height: 22px;
+    margin:0 10px -3px 25px;
+}
+.signin-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+.signin-button:hover {
+    background:#2fdbb6;
+}
+.signin-button:active {
+    background:#1da88a;
+}
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color:#aaa;
+    font-size: 15px;
+}
