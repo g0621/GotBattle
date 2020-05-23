@@ -60,6 +60,7 @@ exports.search = (req, res) => {
             }
         })
     }
+    if(queryArr.length === 0) return res.json({message : 'invalid query try king,location or type'});
     Battle
         .find()
         .or(queryArr)
